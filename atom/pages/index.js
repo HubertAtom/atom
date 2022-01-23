@@ -1,11 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Bienvenue chez atom!</h1>
-    </div>
+      <h1 className='text-3xl font-bold'>Bienvenue chez atom!</h1>
   )
 }

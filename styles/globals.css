@@ -1,4 +1,12 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-7xl;
+    @apply font-semibold;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -8,6 +16,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 a {

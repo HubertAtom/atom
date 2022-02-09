@@ -49,9 +49,9 @@ export default function ProjectDetails({ portfolioItem }) {
             </div>
             <div className='info'>
                 <h3>Technos:</h3>    
-                {technos.map(tech => {
-                    <span key={tech}>{ tech }</span>
-                })}
+                {technos.map(tech => (
+                    <div><span key={tech}>{ tech }</span></div>
+                ))}
             </div>
         </div>
     )

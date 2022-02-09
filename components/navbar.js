@@ -15,11 +15,17 @@ export default function Navbar() {
                     <span className="font-semibold text-inverted ml-4">Hubert Wasier</span></a>
                 </Link>
                 <div className="relative flex items-center justify-between">
-                    <Link href="about">
-                        <a className="btn hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">A propos</a>
+                    <Link href="/about">
+                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">A propos</a>
                     </Link>
-                    <Link href="contact">
-                        <a className="btn hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Contactez moi!</a>
+                    <Link href="/projects">
+                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Projets</a>
+                    </Link>
+                    <Link href="/services">
+                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Services</a>
+                    </Link>
+                    <Link href="/contact">
+                        <a className="btn hover:bg-pink font-semibold tracking-normal px-6 py-3 mr-2 rounded">Contactez moi!</a>
                     </Link>
                 </div>
            

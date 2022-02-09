@@ -5,7 +5,7 @@ export default function Home() {
 
       <p className='text-2xl font-semibold antialiased my-6 max-w-prose mx-auto'>Bienvenue chez atom!</p>
       <h1 className="mb-10">Je crée les sites web que vos clients vont adorer</h1>
-      <a className="btn btn-primary" href="/contact">Contactez-moi</a>
+      <button><a className="bg-pink hover:bg-orange focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto" href="/contact">Contactez-moi</a></button>
       </div>
     </section>
   )

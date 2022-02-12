@@ -16,13 +16,13 @@ export default function Navbar() {
                 </Link>
                 <div className="relative flex items-center justify-between">
                     <Link href="/about">
-                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">A propos</a>
+                        <a className="btn hover:text-mikeBlue hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">A propos</a>
                     </Link>
                     <Link href="/projects">
-                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Projets</a>
+                        <a className="btn hover:text-mikeBlue hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Projets</a>
                     </Link>
                     <Link href="/services">
-                        <a className="btn hover:text-pink hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Services</a>
+                        <a className="btn hover:text-mikeBlue hover:bg-neutral-muted tracking-normal px-6 py-3 mr-2 rounded">Services</a>
                     </Link>
                     <Link href="/contact">
                         <a className="btn hover:bg-pink font-semibold tracking-normal px-6 py-3 mr-2 rounded">Contactez moi!</a>

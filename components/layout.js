@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 
 export default function Layout({ children }) {
     return (
-        <div className="bg-neutral w-full h-screen overflow-hidden">
+        <div className="bg-mikeBGBlue w-full h-screen overflow-hidden font-apple">
             <Head>
                 <title>Hubert - Développeur Web Fullstack</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
